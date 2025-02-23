@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Vaibhav</span><br> Pal From Ghaziabad</h1>
+        </div>
+
+    </div>
+<!--------------about-------------->
+ </div>   
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, explicabo facilis. 
+                    Laborum aperiam sed accusantium, eum optio amet nisi, odio, rem nostrum ea impedit nulla dolor! Et ab non quibusdam!</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div> 
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>  
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2025 - Current</span><br>UI/UX Design Training at VIT BHOPAL UNIVERSITY</li>
+                        <li><span>2022 - 2025</span><br>Team Lead  at StarAppLLC.</li>
+                        <li><span>2020 - 2022</span><br>Intership at ekart eCommerce.</li>
+                    </ul>
+                </div>  
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022</span><br> Completed Grade-12 from Indirapuram Public School</li>
+                        <li><span>2027</span><br>B.Tech from VIT Bhopal University</li>
+                    </ul>
+                </div>  
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-----------services------------->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Accusamus quasi numquam, nobis tempore eaque vero. Aliquid deserunt quibusdam repellendus labore obcaecati, soluta recusandae itaque corporis, accusantium commodi dolore, exercitationem eaque!</p>
+                <a href="#">learn more</a>    
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Accusamus quasi numquam, nobis tempore eaque vero. Aliquid deserunt quibusdam repellendus labore obcaecati, soluta recusandae itaque corporis, accusantium commodi dolore, exercitationem eaque!</p>
+                <a href="#">learn more</a>    
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Accusamus quasi numquam, nobis tempore eaque vero. Aliquid deserunt quibusdam repellendus labore obcaecati, soluta recusandae itaque corporis, accusantium commodi dolore, exercitationem eaque!</p>
+                <a href="#">learn more</a>    
+            </div>
+
+        </div>
+    </div>
+ </div>
+ <!--------------portfolio---------------->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work.3.png">
+                <div class="layer">
+                    <h3>Coding </h3>
+                    <p>Coding is used to build many things, including websites, apps, operating systems, and more.
+                        It's a highly valued skill that can lead to a career in tech.</p>
+                    <a href="#"><i class="fa-duotone fa-light fa-link"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work.2.png">
+                <div class="layer">
+                    <h3>Software Development </h3>
+                    <p>Software development is the process of designing, programming, testing, and maintaining software.
+                        It involves using tools and environments to build software applications.</p> 
+                    <a href="#"><i class="fa-duotone fa-light fa-link"></i></i></a>   
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work.1.png">
+                <div class="layer">
+                    <h3>Artificial Intelligence </h3>
+                    <p>Artificial intelligence (AI) is a technology that allows computers to perform
+                         tasks that typically require human intelligence.</p>
+                    <a href="#"><i class="fa-duotone fa-light fa-link"></i></i></a>
+            </div>
+            
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+ <!-----------contact------------------>
+ <div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>0126789543</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/vaibhav-kumar-pal-955aa6293/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/vaibhavpal___18/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/your-profile" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+                <a href="images/Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message">Message</textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    
+                </form>
+                <span id="msg">Hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © kevin. Mad with <i class="fas fa-heart"></i> by Easy Tutorials</p>
+    </div>
+ </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-cntents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+
+    }
+
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+
+
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz5iK8PqhF06FIiwNSfyCFAkTi8Mfps2_U4-r7ll9v0DAyRZMGqGsPpOWM5F6fUltK_/exec'
+    const form = document.forms["submit-to-google-sheet"]
+    const msg = document.getElementByI("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
